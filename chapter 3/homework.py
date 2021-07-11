@@ -27,3 +27,5 @@ print('Transform Matrix:T2=\n', T2)
 
 res = T2 @ np.linalg.inv(T1) @ p
 print('coordinate:', res.ravel()[:3])
+
+# 6 TODO: solve Ax=b
